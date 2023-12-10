@@ -140,18 +140,21 @@ h1 {
     z-index: 1000;
 }
 
+
 .navbar nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-content: space-around;
 }
+
 .section {
-    margin-top:  10%;
+    margin-top: 5%;
 }
 
 .header {
     margin-top: 10%;
+    text-align: right; 
 }
 
 
