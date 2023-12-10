@@ -124,21 +124,24 @@ html {
 
 .about-me-section {
     display: flex;
-    max-width: 80%; /* Ajustez selon vos préférences */
+    max-width: 70%; /* Ajustez selon vos préférences */
     margin: 50px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    overflow: hidden;
 }
 
 .about-me-image img {
-    max-width: 50%;
-    height: auto;
+    max-width: 65%;
+    object-fit: cover; /* Ajuste la taille de l'image tout en conservant les proportions */
+    border-right: 1px solid #ddd;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 .about-me-text {
-    padding: 20px;
-    width: 50%;
+    padding: 40px;
+    width: 60%;
+    margin-left: 5%;
 }
 
 /* Vous pouvez ajuster la taille de la police selon vos préférences */
