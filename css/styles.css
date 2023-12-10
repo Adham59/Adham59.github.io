@@ -188,8 +188,8 @@ html {
 }
 
 .project img {
-    width: 75%; /* La largeur de l'image sera de 100% de la largeur de son conteneur parent */
-    height: 75%; /* La hauteur sera également de 100% pour maintenir les proportions */
+    width: 65%; /* La largeur de l'image sera de 100% de la largeur de son conteneur parent */
+    height: 65%; /* La hauteur sera également de 100% pour maintenir les proportions */
     object-fit: contain; /* La valeur "cover" ajustera l'image pour couvrir entièrement le conteneur tout en conservant ses proportions */
     border-bottom: 1px solid #ddd;
 
