@@ -1,3 +1,8 @@
+
+
+
+/*Partit general*/
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -9,6 +14,50 @@ html {
     scroll-behavior: smooth; /* Ajoute un défilement fluide à l'ensemble de la page */
 }
 
+.row {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.col-12 h2{
+    font-family: 'Your Preferred Font', sans-serif;
+    color: #333;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;  
+
+}
+
+.section {
+    margin-top: 5%;
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-family: 'Your Preferred Font', sans-serif;
+    color: #333;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;  
+    text-align: center;
+}
+
+.header {
+    margin-top: 10%;
+    text-align: right; 
+}
+
+.footer {
+    background-color: hsl(227, 55%, 22%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Partit navbar*/
 .navbar {
     position: fixed;
     top: 0;
@@ -50,19 +99,8 @@ html {
     transform:scale(1.1);
 }
 
-.row {
-    text-align: center;
-    margin: 20px 0;
-}
 
-.col-12 h2{
-    font-family: 'Your Preferred Font', sans-serif;
-    color: #333;
-    font-size: 28px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    text-decoration: underline;  
-
-}
+/*Partit skill*/
 
 .skill {
     display: flex;
@@ -101,6 +139,11 @@ html {
     transform: scale(1.1);
 }
 
+
+
+
+
+/*Partit home*/
 .home-section {
     display: flex;
     flex-direction: column;
@@ -121,6 +164,10 @@ html {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
+
+
+/*Partit about me*/
 
 .about-me-section {
     display: flex;
@@ -158,19 +205,43 @@ html {
 }
 
 
-.section {
-    margin-top: 5%;
-}
-
-.header {
-    margin-top: 10%;
-    text-align: right; 
-}
 
 
-.section {
-    margin-bottom: 30px;
+/*Partit formation*/
+
+
+#formation {
+    padding: 50px 0;
 }
+
+.formation-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.formation-container {
+    position: relative;
+}
+
+.formation {
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formation-content {
+    padding: 20px;
+}
+
+
+
+
+/*Partit project*/
 
 .project-container {
     display: flex;
@@ -255,14 +326,10 @@ html {
     border-radius: 8px; /* Coins arrondis */
 }
 
-.section h2 {
-    font-family: 'Your Preferred Font', sans-serif;
-    color: #333;
-    font-size: 28px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    text-decoration: underline;  
-    text-align: center;
-}
+
+
+
+/*Partit passion*/
 
 .passion-container {
     display: flex;
@@ -302,6 +369,8 @@ html {
 
 
 
+/*Partit contact*/
+
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -336,12 +405,5 @@ html {
     text-decoration: none;
 }
 
-footer {
-    background-color: hsl(227, 55%, 22%);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-}
+
 
