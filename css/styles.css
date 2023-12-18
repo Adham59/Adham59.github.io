@@ -210,35 +210,50 @@ html {
 /*Partit formation*/
 
 
-#formation {
-    padding: 50px 0;
-}
-
-.formation-section {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .formation-container {
-    position: relative;
+    display: flex;
+    flex-direction: column; /* Mettre en colonne pour superposer les conteneurs */
+    align-items: center; /* Centrer les éléments horizontalement */
+    text-align: center; /* Centrer le texte */
 }
 
 .formation {
-    width: 50%;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    display: flex;
+    width: calc(25.33% - 20px); /* Largeur de 50% avec un espacement de 20px entre les conteneurs */
+    margin: 10px 0; /* Espacement entre les conteneurs */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    border-radius: 8px; /* Coins arrondis */
+    overflow: hidden; /* Évite que l'ombre soit coupée */
+    position: relative;
     flex-direction: column;
-    text-align: center;
 }
 
-.formation-content {
-    padding: 20px;
+.formation:nth-child(odd) {
+    align-self: flex-start;
+    margin-left: 25%;
 }
 
+.formation:nth-child(even) {
+    align-self: flex-end;
+    margin-right: 25%;
+}
 
+.formation img {
+    width: 45%; /* La largeur de l'image sera de 100% de la largeur de son conteneur parent */
+    height: auto; /* La hauteur sera ajustée automatiquement pour maintenir les proportions */
+    object-fit: cover; /* Ajuste l'image pour couvrir entièrement le conteneur tout en conservant ses proportions */
+    border-bottom: 1px solid #ddd;
+}
+
+.formation h3 {
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.formation p {
+    padding: 0 10px 10px;
+    margin: 0;
+}
 
 
 /*Partit project*/
