@@ -102,45 +102,58 @@ html {
 
 /*Partit skill*/
 
-.skill {
+
+.skill-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-
-.skill div {
-    margin: 10px;
+.skill-item {
+    position: relative;
+    margin: 3%;
     text-align: center;
-    transition: transform 0.3s ease; 
 }
 
-
-.skill img {
-    width: 140px;
-    height: 140px;
-    
-}
-.skill div {
-    padding: 60px; /* Ajoute de l'espace à l'intérieur de chaque compétence */
-    text-align: center;
-    transition: transform 0.3s ease;
+.skill-item img {
+    width: 120px;
+    height: 120px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
 }
 
-
-.skill p {
+.skill-item p {
     margin-top: 5px;
     color: #666;
     font-size: 14px;
+    z-index: 2;
 }
 
-
-.skill div:hover {
-    transform: scale(1.1);
+.skill-item::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    z-index: 3; /* Ajustez la valeur pour placer la fenêtre pop-up au-dessus de l'image */
 }
 
+.skill-item:hover::before {
+    opacity: 1;
+}
 
-
+.skill-item:hover img {
+    transform: scale(1.1); /* Ajustez la valeur pour le niveau de zoom souhaité */
+}
 
 
 /*Partit home*/
