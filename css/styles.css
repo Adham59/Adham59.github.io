@@ -282,6 +282,7 @@ html {
 
 .project {
     width: calc(25.33% - 20px); /* Trois projets par ligne avec un espacement de 20px entre eux */
+    height: 400px; /* Hauteur fixe pour tous les projets */
     margin: 10px; /* Espacement entre les projets */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
     border-radius: 8px; /* Coins arrondis */
@@ -356,7 +357,6 @@ html {
 
 
 
-
 /*Partit passion*/
 
 .passion-container {
@@ -375,8 +375,7 @@ html {
 }
 
 .passion img {
-    width: 40%;
-    object-fit: cover;
+    width: 45%;
 }
 
 .passion-content {
