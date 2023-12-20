@@ -28,6 +28,7 @@ html {
 
 }
 
+
 .section {
     margin-top: 5%;
     margin-bottom: 30px;
@@ -181,9 +182,8 @@ html {
     color: #333;
     font-size: 28px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
 }
-
-
 
 
 /*Partit about me*/
