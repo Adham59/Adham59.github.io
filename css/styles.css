@@ -81,7 +81,13 @@ html {
 .navbar nav {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10%;
+    margin-right: 2%;
+}
+
+
+.navbar nav h1 {
+    margin-right: auto;
+    font-weight: bold;
 }
 
 .navbar nav ul {
