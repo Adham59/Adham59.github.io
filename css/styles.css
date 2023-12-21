@@ -338,8 +338,9 @@ html {
 .popup {
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 110%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
@@ -350,7 +351,7 @@ html {
 
 .popup-content {
     position: relative;
-    width: 700px; /* Définissez la largeur souhaitée */
+    width: 600px; /* Définissez la largeur souhaitée */
     height: 500px; /* Définissez la hauteur souhaitée */
     overflow: auto;
     background: #fff;
