@@ -328,7 +328,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
     justify-content: center;
@@ -338,8 +338,8 @@ html {
 
 .popup-content {
     position: relative;
-    width: 500px; /* Définissez la largeur souhaitée */
-    height: 400px; /* Définissez la hauteur souhaitée */
+    width: 700px; /* Définissez la largeur souhaitée */
+    height: 600px; /* Définissez la hauteur souhaitée */
     overflow: auto;
     background: #fff;
     padding: 20px;
