@@ -351,7 +351,7 @@ html {
 
 .popup-content {
     position: relative;
-    width: 600px; /* Définissez la largeur souhaitée */
+    width: 700px; /* Définissez la largeur souhaitée */
     height: 500px; /* Définissez la hauteur souhaitée */
     overflow: auto;
     background: #fff;
