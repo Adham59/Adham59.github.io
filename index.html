@@ -18,6 +18,7 @@
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#formation">Formation</a></li>
                     <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#Experience">Expérience</a></li>
                     <li><a href="#work">Projets</a></li>
                     <li><a href="#passions">Passions</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -48,40 +49,15 @@
                     </div>
                     <div class="about-me-text">
                         <h2>À propos de moi</h2>
-                        <p>Je m'appelle Adham Berrakane, j'ai 19 ans. Depuis mon enfance, je suis passionné par l'informatique.
-                            Actuellement étudiant en 2ème année de BUT Informatique à l'Université de Lille, je suis à la recherche d'un stage cohérent avec le parcours du BUT que j'ai choisi en 2ème année : déploiement d'applications communicantes et sécurisées.
-                            Ce stage se déroulera à partir d'avril et durera 10 semaines. J'aimerais que par la suite, mon stage puisse déboucher sur une potentielle alternance.</p>
+                        <p>Je m'appelle Adham Berrakane, j'ai 20 ans. Depuis mon enfance, je suis passionné par l'informatique.
+                            Actuellement étudiant en 3ème année de BUT Informatique à l'Université de Lille, je suis à la recherche d'un stage cohérent avec le parcours du BUT que j'ai choisi en 2ème année : déploiement d'applications communicantes et sécurisées.
+                            Ce stage se déroulera à partir d'avril et durera 18 semaines. J'aimerais que par la suite, mon stage puisse déboucher sur un potentiel poste en administration informatique</p>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <section class="section">
-            <div id="formation">
-                <div class="formation-section">
-                    <h2>Ma Formation</h2>
-					<div class="formation-container">
-						<div class="formation">
-							<img src="./img/formation/Univ_logo.png" alt="Logo Université">
-							<div class="formation-content">
-								<h3>Université de Lille</h3>
-								<p>2022 - Maintenant</p>
-								<p>BUT Informatique</p>
-							</div>
-						</div>
-						<div class="formation">
-							<img src="./img/formation/Lycée_Gustave_Eiffel.png" alt="Logo lycée gustave Eiffel">
-							<div class="formation-content">
-								<h3>Lycée Gustave Eiffel</h3>
-								<p>2019 - 2022</p>
-								<p>Baccalauréat Scientifique</p>
-							</div>
-						</div>
-                </div>
-            </div>
-        </section>
-
+        
         <section class="section">
             <div id="skills">
                 <div class="row">
@@ -101,23 +77,60 @@
                             <img alt="Linux" src="img/skills/Linux.png" />
                             <p>Linux</p>
                         </div>
-                        <div class="skill-item" data-tooltip="Le SQL nous a été introduit il y a maintenant un peu plus d'un an. Il nous a permis la création de pages dynamiques basées sur des bases de données, ainsi que le déploiement d'applications communicantes.">
-                            <img alt="SQL" src="img/skills/SQL.png" />
-                            <p>SQL</p>
+                        <div class="skill-item" data-tooltip="Avec Ansible, j’ai automatisé l’installation et la configuration d’un serveur LDAP, ainsi que l’intégration des clients avec NSS/PAM pour l’authentification. J’ai aussi déployé un site web statique sur plusieurs machines avec Nginx et configuré un reverse proxy pour gérer l’accès.">
+                            <img alt="Ansible" src="img/skills/Ansible.png" />
+                            <p>Ansible</p>
                         </div>
-                        <div class="skill-item" data-tooltip="Durant ma formation, il nous a été demandé, lors de certains projets, la création et le paramétrage de machines virtuelles. Celles-ci ont été utilisées soit pour le déploiement, mais aussi pour nous introduire à l'idée de machine virtuelle ainsi qu'à son utilité.">
-                            <img alt="Virtualisation" src="img/skills/Virtualisation.png" />
-                            <p>Virtualisation</p>
+                        <div class="skill-item" data-tooltip="Avec Python, j’ai développé des outils pour automatiser des tâches d’administration système, comme la gestion des utilisateurs, la configuration réseau et l’interaction avec un serveur LDAP. J’ai aussi créé des scripts pour faciliter le déploiement et la surveillance des machines.">
+                            <img alt="Python" src="img/skills/Python.png" />
+                            <p>Python</p>
                         </div>
-                        <div class="skill-item" data-tooltip="VsCode est mon IDE principal. Celui-ci me sert au développement, et avec maintenant 2 ans d'utilisation, je pense l'avoir assez bien maîtrisé, lui et ses différentes extensions.">
-                            <img alt="VsCode" src="img/skills/VSCode.png" />
-                            <p>VsCode</p>
+                        <div class="skill-item" data-tooltip="Avec Terraform, j’ai automatisé le déploiement d’infrastructures en créant des machines virtuelles et en gérant leur réseau. Je l’ai utilisé pour provisionner des serveurs et intégrer Ansible afin de configurer automatiquement les services nécessaires.">
+                            <img alt="Terraform" src="img/skills/Terraform.png" />
+                            <p>Terraform</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
+        <section class="section">
+            <div id="experience">
+                <div class="experience-section">
+                    <h2>Mon Stage en Informatique</h2>
+                    <div class="experience-container">
+                        <div class="experience">
+                            <img src="./img/xp/kbane.png" alt="Logo Entreprise">
+                            <div class="experience-content">
+                                <h3>Administration Systèmes et réseaux</h3>
+                                <p><strong>Entreprise :</strong> Kbane - Villeneuve d'Ascq</p>
+                                <p><strong>Durée :</strong> Avril 2024 - Juin 2024</p>
+                                <h4>Missions principales :</h4>
+                                <ul>
+                                    <li>Déploiement et maintenance d’applications web sur le cloud (GCP) avec Kubernetes et Docker.</li>
+                                    <li>Gestion et administration de serveurs sous Linux et Windows Server, avec configuration de Nginx et Apache.</li>
+                                    <li>Automatisation des déploiements et gestion des infrastructures avec Ansible et Terraform.</li>
+                                    <li>Surveillance et optimisation des services avec des outils de monitoring comme Grafana.</li>
+                                    <li>Administration et manipulation d’Active Directory (AD) sous Windows Server.</li>
+                                    <li>Rédaction de procédures techniques et documentation pour les équipes.</li>
+                                </ul>                                
+                                <h4>Compétences acquises :</h4>
+                                <ul>
+                                    <li>Déploiement et gestion d’infrastructures cloud (GCP, Kubernetes, Docker).</li>
+                                    <li>Configuration et sécurisation de serveurs Linux et Windows.</li>
+                                    <li>Automatisation et gestion de configurations avec Ansible et Terraform.</li>
+                                    <li>Monitoring et analyse des performances avec Grafana.</li>
+                                    <li>Gestion des identités et permissions avec Active Directory.</li>
+                                    <li>Rédaction de documentation technique et procédures opérationnelles.</li>
+                                </ul>
+                                <h4>Outils et technologies utilisés :</h4>
+                                <p>GCP, Kubernetes, Docker, Ansible, Terraform, Grafana, Active Directory, Windows Server, Linux (Ubuntu, Debian), Apache, Nginx.</p>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <section class="section">
@@ -130,7 +143,7 @@
                     <div class="project">
                         <img src="./img/work/Odoo_Official_Logo.png" alt="Projet 1">
                         <h3>Création de script pour le déploiement d'un erp</h3>
-                        <p>2024</p>
+                        <p>2025</p>
                         <button class="view-button">Voir</button>
                         <div class="popup">
                             <div class="popup-content">
@@ -157,7 +170,7 @@
                     <div class="project">
                         <img src="./img/work/Jakarta.png" alt="Projet 2">
                         <h3>Création de pages web dynamiques</h3>
-                        <p>2024</p>
+                        <p>2025</p>
                         <button class="view-button">Voir</button>
                         <div class="popup">
                             <div class="popup-content">
